@@ -1,0 +1,34 @@
+html {
+    font-family: helvetica, serif;
+}
+html, body {
+ padding:0;
+ margin:0;
+ width: 100%;
+}
+.wrapper {
+    min-height: 100vh; 
+    width: 100%;
+    background-image: url(Bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1 {
+    margin:0;
+    padding: 7em 0 1em 0;
+    color:white;
+}
+.btn_one {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #f7941d;
+    padding:  1em 7em;
+    border-radius:5px;
+    opacity:1.0;
+}
+.btn_one:hover {
+    opacity:0.8 ;
+}
